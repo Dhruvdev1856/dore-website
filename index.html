@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dore jquery</title>
+    <!-- favion link -->
+    <link rel="icon" href="asset/images/logo.webp">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="asset/fontawesome/fontawesome-free-6.4.0-web/css/all.min.css">
+    <!-- common css link -->
+    <link rel="stylesheet" href="asset/css/common.css">
+    <!-- main css link -->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <!-- mediaquery link -->
+    <link rel="stylesheet" href="asset/css/media.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header d-flex align-center justify-between">
+            <div class="header-left">
+                <img class="white" src="asset/images/white-full.svg">
+            </div>
+            <div class="header-right ">
+                <ul class="right-nav d-flex align-center ">
+                    <li class="nav-link"><a>FEATURES</a></li>
+                    <li class="nav-link"><a>LAYOUT</a></li>
+                    <li class="nav-link"><a>COMPONENTS</a></li>
+                    <li class="nav-link"><a>APPS</a></li>
+                    <li class="nav-link"><a>THEMES</a></li>
+                    <li class="nav-link-buy"><a>BUY</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="main-body">
+            <div class="row">
+                <div class="w-4">
+                    <div class="left-main">
+                        <h2>MAGIC IS IN <br/> THE DETAILS</h2>
+                        <p>
+                            Dore is the combination of good design, quality code and attention for details.<br/><br/>
+                            We used same design language for components, layouts, apps and other parts of the template.<br/><br/>
+                            Hope you enjoy it!
+                        </p>
+                        <a>VIEW NOW <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="w-7">
+                    <div class="right-main">
+                        <img src="asset/images/home-hero.png">
+                    </div>
+                </div>
+            </div>
+            <div class="main-box">
+                <div class="row">
+                    <div class="w-3">
+                        <div class="box text-center">
+                            <i class="fa-solid fa-computer-mouse"></i>
+                            <h5>Right click menu</h5>
+                            <p>Increases overall usability of the project by providing additional actions menu.</p>
+                        </div>
+                    </div>
+                    <div class="w-3">
+                        <div class="box text-center">
+                            <i class="fa-solid fa-computer-mouse"></i>
+                            <h5>Right click menu</h5>
+                            <p>Increases overall usability of the project by providing additional actions menu.</p>
+                        </div>
+                    </div>
+                    <div class="w-3">
+                        <div class="box text-center">
+                            <i class="fa-solid fa-computer-mouse"></i>
+                            <h5>Right click menu</h5>
+                            <p>Increases overall usability of the project by providing additional actions menu.</p>
+                        </div>
+                    </div>
+                    <div class="w-3">
+                        <div class="box text-center">
+                            <i class="fa-solid fa-computer-mouse"></i>
+                            <h5>Right click menu</h5>
+                            <p>Increases overall usability of the project by providing additional actions menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="theme-changer">
+            <p>Light theme</p>
+            <ul class="light-theme d-flex flex-wrap ">
+                <li class="lightgray"></li>
+                <li class="lightblue"></li>
+                <li class="lightyellow"></li>
+                <li class="lightgreen"></li>
+                <li class="lightpink"></li>
+            </ul>
+            <p>Dark Theme</p>
+            <ul class="dark-theme d-flex flex-wrap">
+                <li class="red"></li>
+                <li class="blue"></li>
+                <li class="yellow"></li>
+                <li class="green"></li>
+                <li class="pink"></li>
+            </ul>
+        </div>
+        <div class="click">
+            <i class="fa-solid fa-arrow-pointer"></i>
+        </div>
+    </div>
+    <script src="asset/js/3.7.min.js"></script>
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
+
+$('.theme-changer').toggleClass('.theme-changer1');
